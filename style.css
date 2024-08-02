@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.section-title {
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.skills-container {
+    display: inline;
+    justify-content: center;
+    background-color: grey;
+   
+}
+
+.skill-item {
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    
+}
+
+.skill-item:hover {
+    box-shadow: 0 5px 15px rgba(0,1,2,0.2);
+    transform: translateX(-5px);
+}
+
+#contact{
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin: 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #007bff; 
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: aquamarine;
+}
